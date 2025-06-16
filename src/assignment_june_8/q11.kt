@@ -1,3 +1,10 @@
 package assignment_june_8
 
-// will push after understanding null safety...
+fun main()
+{
+    val name: String? = "Ashutosh"
+    if (!name.isNullOrBlank())
+    {
+        println(name.reversed())
+    }
+}
